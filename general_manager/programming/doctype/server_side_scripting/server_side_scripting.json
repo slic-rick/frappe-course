@@ -1,0 +1,94 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:server_name",
+ "creation": "2022-12-01 14:08:15.677778",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "document",
+  "server_name",
+  "surname",
+  "address",
+  "home",
+  "column_break_5",
+  "table",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "surname",
+   "fieldtype": "Data",
+   "label": "surname"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Data",
+   "label": "address"
+  },
+  {
+   "fieldname": "home",
+   "fieldtype": "Data",
+   "label": "home"
+  },
+  {
+   "fieldname": "column_break_5",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "table",
+   "fieldtype": "Table",
+   "label": "table",
+   "options": "child doc"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "server side scripting",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "server_name",
+   "fieldtype": "Data",
+   "label": "Name",
+   "unique": 1
+  },
+  {
+   "fieldname": "document",
+   "fieldtype": "Link",
+   "label": "document",
+   "options": "client scripting"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2022-12-06 11:55:43.307280",
+ "modified_by": "Administrator",
+ "module": "Programming",
+ "name": "server side scripting",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

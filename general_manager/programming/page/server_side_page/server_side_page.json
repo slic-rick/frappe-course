@@ -1,0 +1,19 @@
+{
+ "content": null,
+ "creation": "2022-12-06 13:43:49.289154",
+ "docstatus": 0,
+ "doctype": "Page",
+ "idx": 0,
+ "modified": "2022-12-06 13:43:49.289154",
+ "modified_by": "Administrator",
+ "module": "Programming",
+ "name": "server-side-page",
+ "owner": "Administrator",
+ "page_name": "server-side-page",
+ "roles": [],
+ "script": null,
+ "standard": "Yes",
+ "style": null,
+ "system_page": 0,
+ "title": "Demo page"
+}

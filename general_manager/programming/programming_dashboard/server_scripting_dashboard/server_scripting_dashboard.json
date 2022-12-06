@@ -1,0 +1,29 @@
+{
+ "cards": [
+  {
+   "card": "number of docs"
+  }
+ ],
+ "charts": [
+  {
+   "chart": "server side dashboard  card",
+   "width": "Half"
+  },
+  {
+   "chart": "server script report chart",
+   "width": "Half"
+  }
+ ],
+ "creation": "2022-12-06 13:04:41.327352",
+ "dashboard_name": "server scripting dashboard",
+ "docstatus": 0,
+ "doctype": "Dashboard",
+ "idx": 0,
+ "is_default": 1,
+ "is_standard": 1,
+ "modified": "2022-12-06 13:19:43.953946",
+ "modified_by": "Administrator",
+ "module": "Programming",
+ "name": "server scripting dashboard",
+ "owner": "Administrator"
+}
